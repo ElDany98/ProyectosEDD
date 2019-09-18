@@ -89,8 +89,8 @@ public class PrbPila {
        {
            if(a instanceof String)
            {
-               System.out.println(""+(String)a);
-       }else
+               System.out.println(""+(String)a); 
+      }else
            if(a instanceof Integer )
            {
                System.out.println(""+(Integer)a);
@@ -99,3 +99,9 @@ public class PrbPila {
     }
     
 }
+/* busca (Cola c, String s)
+{
+    if(c.get
+}
+
+*/
