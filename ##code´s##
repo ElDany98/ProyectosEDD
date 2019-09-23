@@ -7,3 +7,11 @@ pu void guarda (pila p){
     arch.close();
 
 }
+
+miclase implements Serializable
+{
+Pila U1 = new Pila();
+Pila U2 = new Pila();
+Cola c = new Cola();
+}
+
