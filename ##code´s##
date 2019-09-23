@@ -1,0 +1,9 @@
+pu void guarda (pila p){
+{
+    pila p = null;
+    FileOutputStream fos = new FileOutputStream("arch.dat");
+    ObjectOutputStream arch = new ObjectOutputStream(fos);
+    arch.writeObject(p);
+    arch.close();
+
+}
