@@ -15,3 +15,32 @@ Pila U2 = new Pila();
 Cola c = new Cola();
 }
 
+
+PILAS###########################3333
+public Object elimina()
+    {
+       if(tope==-1)
+     {
+         System.out.println("Pila vacia");
+         return null;
+     }else
+     {
+         return pila[tope--];
+     }
+    }
+    
+    
+    ##################################33
+     public void inserta(Object d)
+    {
+       
+       
+      if(tope+1==pila.length)
+      {
+          System.out.println("Pila llena");
+         }else
+      {
+          pila[++tope]=d;
+      }
+    }
+
