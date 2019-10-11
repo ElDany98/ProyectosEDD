@@ -43,4 +43,50 @@ public Object elimina()
           pila[++tope]=d;
       }
     }
+    
+    *****************************************************
+    
+    colaCD
+    
+    pu   void inserta
+    {
+    if  (n==null)
+    {
+    sout "no se puede insertar");
+    
+    }
+    else
+    {
+        if(a==null);
+        a=n;
+        a.setSiguiente(n);
+    }else
+    {
+        n.setSiguiente(a.getSiguiente());
+        a.setSiguiente(n);
+        a=n;
+    }
+    }
+    }
+
+public Nodo elimina(){
+    if(a==null)
+    {
+    sout "esta cola esta vacia",
+    
+    }else{
+     Nodo aux = a.setSiguiente();
+     if(a==aux)
+     {
+     a=null;
+     
+     }else
+     {
+        a.setSiguiente(aux.getSiguiente());    
+     }
+     aux.setSiguiente(null);
+     return aux;
+    }
+
+}
 
