@@ -94,3 +94,24 @@ public Nodo elimina(){
 hacer inserta de una lista 
 cuando va al inicio
 cuando va al final
+
+
+
+clase arbol binario,
+//no requiere constructores solo get y set 
+public nodo arbol inserta(nodoarbol r, nodorbol n)
+{
+if(r=null)
+    {
+    return n;
+    }
+    else{
+        if(r.getS().compareTo(n.getS()>0)
+        {
+        r.setIzq(inserta(r.getIzq(),n)
+        }else
+            {r.setDer(inserta(r.getDer(),n));
+            }
+            return n;
+    }
+}
