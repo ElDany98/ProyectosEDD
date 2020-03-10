@@ -1,0 +1,10 @@
+PilaDinamica pila = new PilaDinamica()
+{//inicio perb
+  Nodo nodo = new Nodo ("uno");
+  sout(pila.inserta(nodo));
+  
+  nodo= pila.elimina();
+    if(nodo!=null){//inicio prb
+          sout((String) nodo.getObj());
+        }//fin if
+}//fin prb
