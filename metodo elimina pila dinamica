@@ -1,0 +1,13 @@
+public Nodo elimina()
+    {
+        if (tope==null) {
+            return null;
+           
+        }else
+        {
+            Nodo aux = tope;
+            tope=tope.getSiguiente();
+            aux.setSiguiente(null);
+            return aux;
+        }
+    }
